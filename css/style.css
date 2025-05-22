@@ -107,4 +107,30 @@ body {
     display:none;
     text-align: left;
   }
-  
+
+  .welcome{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+  }
+  .background-video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+  }
+  .content{
+    position: relative;
+    z-index: 1;
+    color: #d8fff1;
+    text-align: center;
+    font-size: 120px;
+  }

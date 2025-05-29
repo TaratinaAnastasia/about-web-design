@@ -6,8 +6,18 @@
 </head>
 
 <body>
+  <nav class="main-nav">
+    <div class="nav-logo">Вебдизайн</div>
+    <ul class="nav-links">
+      <li><a href="#welcome">Вітальне відео</a></li>
+      <li><a href="#about">Технології</a></li>
+      <li><a href="#tags">Теги</a></li>
+      <li><a href="#contacts">Контакти</a></li>
+    </ul>
+  </nav>
+
   <main>
-    <section class="welcome"> 
+    <section id="welcome" class="welcome"> 
       <video autoplay muted loop playsinline class="background-video">
         <source src="video/intro.mp4" type="video/mp4" />
         Your browser does not support the video tag.
@@ -15,7 +25,7 @@
       <h1 class="content">Коротко про веб дизайн</h1>
     </section>
 
-    <section>
+    <section id="about">
       <div class="container">
         <div class="image_container">
           <img src="img/html.png" alt="HTML">
@@ -44,7 +54,7 @@
       </div>
     </section>
 
-    <section class="tags">
+    <section id="tags" class="tags">
       <h2>Теги</h2>
 
       <div class="tag-container">
@@ -90,7 +100,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer id="contacts" class="site-footer">
     <div class="footer-content">
       <div class="footer-section about">
         <h3>Про нас</h3>
